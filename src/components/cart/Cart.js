@@ -37,7 +37,7 @@ export default function Cart() {
     setOrder((prev) => ({ ...prev, order }));
     setOrders((prev) => [...prev, order]);
     setCartItems(() => []);
-    navigate("/ecomm-react/order");
+    navigate("/coffee-shop/order");
   };
 
   return (
